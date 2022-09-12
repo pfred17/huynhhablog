@@ -1,0 +1,43 @@
+.img__area {
+    padding-top: 30px;
+}
+
+.img__blog {
+    margin: 10px 0 10px -5px;
+    width: 100%;
+}
+
+.heading__blog {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient( to bottom right, #758EB7,
+    #A5CAD2);
+}
+
+.dicription__blog-content {
+    color: rgba(0, 0, 0, 0.dđ);
+    font-size: 14px;
+}
+
+.tittle__blog-content {
+    color: white;
+    font-size: 30px;
+}
+
+.content__blog {
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.concentrated {
+    font-weight: 900;
+}
+
+.content__blog p {
+    font-weight: 500;
+}
+

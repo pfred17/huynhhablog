@@ -1,0 +1,29 @@
+.postcard__page {
+    margin-top: 50px;
+    padding-top: 10px;
+    background-image: linear-gradient(to bottom right, #5BA8A0, #e5f1f9);
+    /* height: 100%; */
+}
+
+
+.video {
+    /* border: 2px solid red; */
+}
+
+.video__postcard-dicription {
+    background-color: #e5f1f9;
+    background-size: 100%;
+    /* text-align: center; */
+    line-height: 30px;
+    margin: 50% 0;
+    border-radius: 36px;
+}
+
+.video__postcard-dicription h2, span {
+    padding: 30px 40px 8px 40px;
+}
+
+.video__postcard-dicription p {
+    padding: 0 40px;
+}
+

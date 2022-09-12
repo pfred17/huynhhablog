@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HuynhHa Blog</title>
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/respondsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="web">
+        <div id="header">
+            <div class="grid wide">
+                <div class="header__nav">
+                    <ul class="header__list ">
+                        <li class="header__item logo">
+                            <a href="index.html" class="header__item-link trademark">HUỲNH HÀ</a>
+                    </ul>
+                    <ul class="header__list hide-on-mobile-tablet ">
+                        <li class="header__item">
+                            <a href="#blog" class="header__item-link header__item-active ">BLOG</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#postcard" class="header__item-link header__item-active ">POSTCARD</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#info" class="header__item-link header__item-active">HÀ LÀ AI?</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__item-link header__item-active">
+                                LIÊN HỆ
+                                <i class='down-icon bx bxs-chevron-down'></i>
+                                <ul class="subnav">
+                                    <li><a href="">Facebook</a></li>
+                                    <li><a href="">Instagram</a></li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- MOBILE TABLET -->
+                    <label for="nav__bar-btn" class="header__list bar__icon bar__icon-margin bar__icon-on">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <label for="nav__mobile-input" class="nav__bar-btn"></label>
+
+        <input hidden type="checkbox" class="nav__input" id="nav__bar-btn"> 
+
+        <label for="nav__bar-btn" class="overlay"></label>
+
+        <div class="nav__mobile">
+            <label for="nav__bar-btn" class="nav__mobile-close">
+                <i class='bx bx-x' ></i>
+            </label>
+            <ul class="nav__mobile-list">
+                <li class="nav__mobile-item">
+                    <a href="" class="nav__mobile-link">BLOG</a>
+                </li>
+                <li class="nav__mobile-item">
+                    <a href="" class="nav__mobile-link">POSTCARD</a>
+                </li>
+                <li class="nav__mobile-item">
+                    <a href="" class="nav__mobile-link">HÀ LÀ AI?</a>
+                </li>
+                <li class="nav__mobile-item">
+                    <a href="" class="nav__mobile-link">LIÊN HỆ</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div id="slider"></div>      
+        
+        
+        <div id="blog">
+            <div class="grid wide">
+                <div class="heading__tittle">
+                    <span id="blog">BLOG CÁ NHÂN</span>
+                </div>
+                <div class="row">
+                    <div class="col l-4 m-6 c-12 ">
+                        <a href="blog2.html" class="blog__link">
+                            <div class="blog__content">
+                                <img class="blog__img .blog__img-tablet-mobile " src="./asset/img/blog/d2.png" alt="">
+                                <div class="blog__body">
+                                    <p class="blog__heading">Chiếc blog thứ nhất</p>
+                                    <h2 class="blog__tittle">Review sách: KHÔNG GIA ĐÌNH</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-6 c-12 ">
+                        <a href="blog1.html" class="blog__link">
+                            <div class="blog__content">
+                                <img class="blog__img .blog__img-tablet-mobile " src="./asset/img/blog/blog1.jpg" alt="">
+                                <div class="blog__body">
+                                    <p class="blog__heading">Chiếc blog thứ hai</p>
+                                    <h2 class="blog__tittle">SÀI GÒN CHƯA BAO GIỜ NGỦ</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-6 c-12 ">
+                        <a href="blog3.html" class="blog__link">
+                            <div class="blog__content">
+                                <img class="blog__img .blog__img-tablet-mobile " src="./asset/img/blog/blog3.jpg" alt="">
+                                <div class="blog__body">
+                                    <p class="blog__heading">Chiếc blog thứ ba</p>
+                                    <h2 class="blog__tittle">CHỊ EM NHÀ NÊN CẢNH</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="postcard">
+            <div class="grid wide">
+                <div class="heading__tittle" >POSTCARD</div>
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="postcard__body">
+                            <div class="row">
+                                <div class="col l-3 m-0 c-0">
+                                    <img src="./asset/img/img4.jpg" alt="" class="postcard__img hide-on-mobile-tablet">
+                                </div>
+                                <div class="col l-9 m-12 c-12">
+                                    <div class="postcard__content postcard__full-screen">
+                                        <h2 class="postcar__heading ">
+                                            POSTCARD
+                                        </h2>
+                                        <span class="postcard__dicription">
+                                            Lắng nghe mình trò chuyện
+                                        </span>
+                                        <br>
+                                        <div class="postcard__link-area">
+                                            <a href="postcard.html" class="postcard__link">
+                                                XEM NGAY
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="info">
+            <div class="grid wide">
+                <div class="heading__tittle">
+                    <span>MỘT CHÚT VỀ HÀ !!!</span>
+                </div>
+                <div class="row">
+                    <div class="col l-4 m-5">
+                        <div class="item">
+                            <img src="./asset/img/img4.jpg" alt="hahuynh" class="img__info hide-on-mobile">
+                            <img src="./asset/img/img2.jpg" alt="hahuynh" class="img__info hide-on-mobile">
+                        </div>
+                    </div>
+                    <div class="col l-8 m-7">
+                        <div class="item">
+                            <div class="info__content">
+                                <span>Sau 18 năm sống cuộc sống gói gọn trong quãng đường từ nhà đến trường phổ thông, ngày mình đặt chân lên máy bay đi du học là ngày mình chui ra khỏi bong bóng và phát hiện rằng thế giới này quá rộng lớn. Ra khỏi cánh ba mẹ, mình ngơ ngác đứng tự hỏi bây giờ mình làm gì, đi đâu. Nhưng rồi mình nhận ra: Không biết làm gì hay đi đâu cũng có nghĩa là từ ngày hôm nay, mình có thể làm bất cứ gì và đi đến bất cứ đâu!</span>
+                                <br>
+                                <span>Sau tổng cộng 4 năm học và sinh sống ở Anh, đất nước ấy trở thành một phần con người mình ngày hôm nay. 18 tuổi, mình rời nhà lên đường đi du học Anh và hoàn thành bậc đại học ngành Fashion Design & Technology. Tốt nghiệp, mình về nước và đi làm Stylist/Phóng viên Thời trang. 2 năm sau đó, mình quay lại Anh và hoàn thành bậc cao học ngành International Fashion Marketing. Học xong, mình về nước và bắt đầu làm việc trong ngành Marketing – ngành nghề mà mình rất yêu thích.</span>
+                                <br>
+                                <span>Nơi mình sống và yêu. Sinh ra và lớn lên ở Hà Nội nhưng Sài Gòn giờ là nhà. Sài Gòn không bao giờ ngủ, không bao giờ mệt mỏi, không bao giờ cũ kĩ. Trong tất cả những nơi mình đã đặt chân qua, thành phố này cho mình một nguồn năng lượng rất khó giải thích. Có thể là Sài Gòn ưu ái mình, muốn mình ở lại đây?</span>
+                                <br>
+                                <span>Đứa lớn nhất ngày xưa ốm yếu dặt dẹo, nhìn như một nhúm xương xẩu mang đủ thứ bệnh trong người. Mình mang tới thú y, bác sĩ tiêm cho mũi vitamin trợ lực, nói “thôi mang về, người lạnh ngắt thế này còn nói chuyện gì nữa”. Thế mà nó sống qua ngày hôm đó. Hôm sau lại tới thú y, bà bác sĩ tròn mắt ngạc nhiên, lại tiêm một mũi vitamin rồi bảo mình cứ mang tới tiêm 1 tuần nữa, nó mà qua được tuần này là sống. Con mèo dặt dẹo bé hơn lòng bàn tay, mũi kim thì to, nhìn nó cong cả người lên chịu đau mà thắt lòng các bạn à, ngày nào cũng phải tiêm như thế. Hai ngày rồi bốn ngày, rồi sáu ngày, nó vẫn sống. Mình nhớ như in cảm giác đưa nó đến tiêm cữ cuối, cũng là ngày bắt đầu cuộc sống mới của nó. Mình không biết làm sao con mèo bé tí có thể sống qua chừng ấy bệnh, nhưng nó sống. Và nó được đặt tên là Sung (vì quá sung)</span>
+                                <br>
+                                <span>Anh hai đen xì được nhặt ở góc đường vào đúng đêm sinh nhật thứ 25 của Giang nhờ khả năng kêu to hiếm có (chứ trời tối, anh đen xì có ai thấy đâu). Thế là anh được đặt tên Tuyết cho đỡ đen, được nhập hộ khẩu và cứ thế lớn. Tuy không ai làm gì anh nhưng anh rất nhát, thấy bóng người lạ là anh có thể trốn 3 ngày không ra cũng không vấn đề gì. Anh không tin ai ngoài con Giang, nên anh hay nằm cạnh nó. Anh mong nó tự giác hơn, 6 giờ sáng hàng ngày không để anh phải liếm mặt gọi dậy cho ăn nữa. Vuốt ve thì anh cũng thích nhưng phải từ từ không được đưa tay nhanh quá, với lại không được bế vì anh ghét bị bế. Cửa phòng lúc nào cũng phải mở vì anh ghét cửa đóng, anh không có nhu cầu ra hay vào nhưng anh ghét cửa đóng, đứa nào đóng cửa là anh sẽ đòi ra, cho anh ra xong anh thấy cửa đóng anh sẽ lại đòi vào tiếp. Thế thôi, ngoài những lúc khó tính thì anh cũng…dễ tính ý mà.</span>
+                                <br>
+                                <p>Thằng út đáng ra là cái mũi nó hồng, nhưng tự nhiên có con ruồi đen đen nên đặt tên là Ruồi. Nó được nhặt về sau một thời gian Giang thấy nó quanh quẩn ở hiệu thuốc gần nhà. Nghe kể nó với em nó lang thang trên đường, em nó bị xe cán chết, chỉ còn lại mình nó. Bà bán thuốc thấy thế, hốt vào tiệm, cho ăn. Vậy là nó như chết đuối gặp phao, cứ quanh quẩn ở cái hiệu thuốc. Khổ cái là bà bán thuốc không nuôi. Sáng bả cho ăn, cho vào tiệm. Tối bả về và khoá cửa tiệm thuốc, còn con mèo lang thang ở ngoài, chui vào góc tường ngủ, đợi sáng bả quay lại. Giang thấy thế, ra hộc tường ẵm nó mang về nhà, vậy là lần đầu tiên con Ruồi có một cái nhà.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="heading__tittle">
+                    <span>MỘT CHÚT VỀ MÌNH!!!</span>
+                </div>
+                <div class="about-me">
+                    <img src="./asset/img/img2.jpg" alt="" class="img__me">
+                    <div class="dicription">
+                        <h2 class="heading__name">Name: HUỲNH THỊ THU HÀ</h2>
+                        <p class="heading__address">Address: Thành phố Hồ Chí Minh.</p>
+                        <p class="heading__carrer">
+                            Nhân viên của tập đoàn công nghệ hàng đầu Việt Nam Olam.
+                        </p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+
+
+        <div id="footer">
+            <div class="social">
+                <a href="#">
+                    <i class='footer__icon bx bxl-facebook-square'></i>
+                </a>
+                <a href="#">
+                    <i class='footer__icon bx bxl-instagram' ></i>
+                </a>
+                <a href="#">
+                    <i class='footer__icon bx bxl-youtube' ></i>
+                </a>
+                <a href="#">
+                    <i class='footer__icon bx bxl-twitter' ></i>
+                </a>
+            </div>
+            <p class="copy-right">Bản quyền thuộc về Huỳnh Hà</p>
+        </div>
+
+        <!--  VIDEO TEST -->
+
+
+        
+    </div>
+</body>
+</html>

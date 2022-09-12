@@ -1,0 +1,164 @@
+/* MOBILE and TABLET */
+
+.nav__mobile {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    height: 100%;
+    width: 320px;
+    max-width: 320px;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform linear 0.3s, opacity linear 0.2s;
+}
+
+.nav__mobile-list {
+    position: absolute;
+    display: block;
+    margin-top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.nav__mobile-item{
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+
+.nav__mobile-item:hover .nav__mobile-link {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav__mobile-link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.nav__mobile-close {
+    font-size: 50px;
+    position: fixed;
+    top: 0.4rem;
+    right: 0.4rem;
+    font-weight: 100;
+}
+
+
+.bar__icon {
+    display: none;
+    font-size: 25px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 2;
+    animation: fadeIn linear 4s;
+}
+
+@keyframes fadeIN {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.nav__input:checked ~ .overlay {
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0);
+    transition: 0.3s linear;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    opacity: 1;
+}
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+
+    .bar__icon-on {
+        display: block;
+        margin-right: 8px;
+    }
+
+    .blog__img-tablet-mobile {
+        height: 286px;
+        width: 1000px;
+    }
+
+    .postcard__full-screen {
+        width: 100%;
+    }
+
+    .vide0__edit {
+        width: 100%;
+    }
+}
+
+
+/* TABLET */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    
+
+
+}
+
+/* MOBILE */
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .bar__icon-margin {
+        margin-right: 20px;
+    }
+
+    .font-size__tittle {
+        font-size: 18px;
+    }
+
+    .font-size__dicription {
+        font-size: 10px;
+    }
+
+    .blog__tittle-padding {
+        padding: 30px 0;
+    }
+}
+
+
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+        margin: 2% 0;
+    }
+
+    
+}
