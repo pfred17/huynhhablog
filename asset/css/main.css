@@ -134,7 +134,7 @@ html {
 
 
 
-#slider {
+#slider .slider__img {
     margin-top: 50px;
     width: 100%;
     background-position: top center;
