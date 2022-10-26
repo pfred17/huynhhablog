@@ -150,6 +150,15 @@
     .blog__tittle-padding {
         padding: 30px 0;
     }
+
+    .margin__mobile-text {
+        margin: 10px 10px;
+    }
+
+    .margin__mobile-postcard {
+        /* margin: 0 20px 0px 0px; */
+        /* width: 100%; */
+    }
 }
 
 
@@ -159,6 +168,6 @@
         display: none;
         margin: 2% 0;
     }
-
+    
     
 }
